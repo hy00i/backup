@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      let socket = io();
+      let el;
+
+      socket.on
+      (
+        'This is the message for BENC 3173 Computer Network and System Assignment ==> Server time: ',(timeString) => 
+      {
+        el = document.getElementById('server-time');
+        el.innerHTML = 'This is the message for BENC 3173 Computer Network and System Assignment ==> Server time: ' + timeString ;
+      }
+      );
+    </script>
+  </head>
+  <body>
+    <p id="server-time"></p>
+  </body>
+</html>
+
+
+<br /><br /> By Student : Ooi Han Yi &#128512;</p> <br /> 
+<span style='font-size:100px;'>&#129504;</span>
